@@ -1,0 +1,249 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Dragon", "Surf", "INGRES", "QRD"],
+    "soc_id": ["291", "246", "305", "321", "339", "356", "415","457", "475"]
+  },
+  "tcs3701_platform":{
+    "owner": "sns_tcs3701",
+    ".config":{
+      "owner": "sns_tcs3701",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "3",
+        "data": "6"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "57"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "117"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "1",
+        "data": "1"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+    ".als":{
+      "owner": "sns_tcs3701",
+      ".fac_cal":{
+        "owner": "sns_tcs3701",
+        "scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "bias":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+      }
+    },
+    ".prox":{
+      "owner": "sns_tcs3701",
+      ".fac_cal":{
+        "owner": "sns_tcs3701",
+        "near_threshold":{ "type": "flt", "ver": "0",
+          "data": "700.0"
+        },
+        "far_threshold":{ "type": "flt", "ver": "0",
+          "data": "680.0"
+        }
+      }
+    },
+    ".channel":{
+      "owner": "sns_tcs3701",
+      ".fac_cal":{
+        "owner": "sns_tcs3701",
+        "data_cch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "data_rch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "data_gch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "data_bch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "data_wch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        }
+      }
+    },
+    ".coefficient":{
+      "owner": "sns_tcs3701",
+      "0":{ "type": "flt", "ver": "1",
+        "data": "850.006"
+      },
+      "1":{ "type": "flt", "ver": "1",
+        "data": "66.613"
+      },
+      "2":{ "type": "flt", "ver": "1",
+        "data": "-39.716"
+      },
+      "3":{ "type": "flt", "ver": "1",
+        "data": "106.155"
+      },
+      "4":{ "type": "flt", "ver": "1",
+        "data": "-147.33"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "7":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "9":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "10":{ "type": "flt", "ver": "0",
+        "data": "600.0"
+      },
+      "11":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    },
+    ".cct_hir":{
+      "owner": "sns_tcs3701",
+      "0":{ "type": "flt", "ver": "5",
+        "data": "-0.35234927299723"
+      },
+      "1":{ "type": "flt", "ver": "5",
+        "data": "0.355299413989712"
+      },
+      "2":{ "type": "flt", "ver": "5",
+        "data": "1.21303797257315"
+      },
+      "3":{ "type": "flt", "ver": "5",
+        "data": "0.0176696564069516"
+      },
+      "4":{ "type": "flt", "ver": "2",
+        "data": "0.000000"
+      },
+      "5":{ "type": "flt", "ver": "2",
+        "data": "0.000000"
+      },
+      "6":{ "type": "flt", "ver": "2",
+        "data": "1.000000"
+      },
+      "7":{ "type": "flt", "ver": "2",
+        "data": "0.000000"
+      },
+      "8":{ "type": "flt", "ver": "5",
+        "data": "0.799345282424326"
+      },
+      "9":{ "type": "flt", "ver": "5",
+        "data": "-1.87121257422291"
+      },
+      "10":{ "type": "flt", "ver": "5",
+        "data": "2.41425206007443"
+      },
+      "11":{ "type": "flt", "ver": "5",
+        "data": "-0.960725798309682"
+      }
+    },
+    ".cct_lir":{
+      "owner": "sns_tcs3701",
+      "0":{ "type": "flt", "ver": "4",
+        "data": "-0.0161027336179131"
+      },
+      "1":{ "type": "flt", "ver": "4",
+        "data": "0.199195555562198"
+      },
+      "2":{ "type": "flt", "ver": "4",
+        "data": "0.944614193940765"
+      },
+      "3":{ "type": "flt", "ver": "4",
+        "data": "-0.259332838293233"
+      },
+      "4":{ "type": "flt", "ver": "2",
+        "data": "0.000000"
+      },
+      "5":{ "type": "flt", "ver": "2",
+        "data": "0.000000"
+      },
+      "6":{ "type": "flt", "ver": "2",
+        "data": "1.000000"
+      },
+      "7":{ "type": "flt", "ver": "2",
+        "data": "0.000000"
+      },
+      "8":{ "type": "flt", "ver": "4",
+        "data": "0.106369773110316"
+      },
+      "9":{ "type": "flt", "ver": "4",
+        "data": "-0.240886183754014"
+      },
+      "10":{ "type": "flt", "ver": "4",
+        "data": "-0.184175597054775"
+      },
+      "11":{ "type": "flt", "ver": "4",
+        "data": "1.30392875595919"
+      }
+    },
+    ".lux_hir":{
+      "owner": "sns_tcs3701",
+      "0":{ "type": "flt", "ver": "3",
+        "data": "5.69450145501435"
+      },
+      "1":{ "type": "flt", "ver": "3",
+        "data": "-2.63739595673815"
+      },
+      "2":{ "type": "flt", "ver": "3",
+        "data": "-3.40961006597354"
+      },
+      "3":{ "type": "flt", "ver": "3",
+        "data": "0.0717045408619015"
+      }
+    },
+    ".lux_lir":{
+      "owner": "sns_tcs3701",
+      "0":{ "type": "flt", "ver": "3",
+        "data": "2.03300876529738"
+      },
+      "1":{ "type": "flt", "ver": "3",
+        "data": "-0.50945782654162"
+      },
+      "2":{ "type": "flt", "ver": "3",
+        "data": "11.4410103171376"
+      },
+      "3":{ "type": "flt", "ver": "3",
+        "data": "-9.00589016293861"
+      }
+    }
+  }
+}

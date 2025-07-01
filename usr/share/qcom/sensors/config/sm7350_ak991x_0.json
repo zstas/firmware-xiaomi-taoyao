@@ -1,0 +1,243 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "RCM", "IDP", "MONA", "QRD"],
+    "soc_id": ["450", "475"]
+  },
+  "ak0991x_0_platform":{
+    "owner": "sns_ak0991x",
+    ".config":{
+      "owner": "sns_ak0991x",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "slave_config":{ "type": "int", "ver": "1",
+        "data": "14"
+      },
+      "i3c_address":{ "type": "int", "ver": "0",
+        "data": "30"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "119"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "3"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+    ".orient":{
+      "owner": "sns_ak0991x",
+      "x":{ "type": "str", "ver": "1",
+        "data": "+y"
+      },
+      "y":{ "type": "str", "ver": "1",
+        "data": "-x"
+      },
+      "z":{ "type": "str", "ver": "0",
+        "data": "+z"
+      }
+    },
+    ".mag":{
+      "owner": "sns_ak0991x",
+      ".fac_cal":{
+        "owner": "sns_ak0991x",
+        ".corr_mat":{
+          "owner": "sns_ak0991x",
+          "0_0":{ "type": "flt", "ver": "1",
+            "data": "1.0162353515625"
+          },
+          "0_1":{ "type": "flt", "ver": "1",
+            "data": "0.010498046875"
+          },
+          "0_2":{ "type": "flt", "ver": "1",
+            "data": "-0.0103759765625"
+          },
+          "1_0":{ "type": "flt", "ver": "1",
+            "data": "0.0181884765625"
+          },
+          "1_1":{ "type": "flt", "ver": "1",
+            "data": "0.9788818359375"
+          },
+          "1_2":{ "type": "flt", "ver": "1",
+            "data": "-0.01336669921875"
+          },
+          "2_0":{ "type": "flt", "ver": "1",
+            "data": "0.01513671875"
+          },
+          "2_1":{ "type": "flt", "ver": "1",
+            "data": "0.02520751953125"
+          },
+          "2_2":{ "type": "flt", "ver": "1",
+            "data": "1.03033447265625"
+          }
+        },
+        ".bias":{
+          "owner": "sns_ak0991x",
+          "x":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+          "y":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          },
+          "z":{ "type": "flt", "ver": "0",
+            "data": "0.0"
+          }
+        }
+      }
+    },
+    ".placement":{
+      "owner": "sns_ak0991x",
+      "0":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "1":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "2":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "3":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "4":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "7":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "9":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "10":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "11":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    },
+    ".pdc_parameter":{
+      "owner": "sns_ak0991x",
+      "0":{ "type": "flt", "ver": "3",
+        "data": "198"
+      },
+      "1":{ "type": "flt", "ver": "3",
+        "data": "83"
+      },
+      "2":{ "type": "flt", "ver": "3",
+        "data": "64"
+      },
+      "3":{ "type": "flt", "ver": "3",
+        "data": "111"
+      },
+      "4":{ "type": "flt", "ver": "3",
+        "data": "41"
+      },
+      "5":{ "type": "flt", "ver": "3",
+        "data": "245"
+      },
+      "6":{ "type": "flt", "ver": "3",
+        "data": "0"
+      },
+      "7":{ "type": "flt", "ver": "3",
+        "data": "139"
+      },
+      "8":{ "type": "flt", "ver": "3",
+        "data": "212"
+      },
+      "9":{ "type": "flt", "ver": "2",
+        "data": "54"
+      },
+      "10":{ "type": "flt", "ver": "3",
+        "data": "186"
+      },
+      "11":{ "type": "flt", "ver": "3",
+        "data": "70"
+      },
+      "12":{ "type": "flt", "ver": "3",
+        "data": "80"
+      },
+      "13":{ "type": "flt", "ver": "3",
+        "data": "179"
+      },
+      "14":{ "type": "flt", "ver": "2",
+        "data": "255"
+      },
+      "15":{ "type": "flt", "ver": "3",
+        "data": "179"
+      },
+      "16":{ "type": "flt", "ver": "3",
+        "data": "254"
+      },
+      "17":{ "type": "flt", "ver": "3",
+        "data": "83"
+      },
+      "18":{ "type": "flt", "ver": "3",
+        "data": "28"
+      },
+      "19":{ "type": "flt", "ver": "3",
+        "data": "240"
+      },
+      "20":{ "type": "flt", "ver": "3",
+        "data": "190"
+      },
+      "21":{ "type": "flt", "ver": "3",
+        "data": "252"
+      },
+      "22":{ "type": "flt", "ver": "3",
+        "data": "218"
+      },
+      "23":{ "type": "flt", "ver": "3",
+        "data": "120"
+      },
+      "24":{ "type": "flt", "ver": "3",
+        "data": "10"
+      },
+      "25":{ "type": "flt", "ver": "3",
+        "data": "5"
+      },
+      "26":{ "type": "flt", "ver": "2",
+        "data": "16"
+      }
+    }
+  }
+}
