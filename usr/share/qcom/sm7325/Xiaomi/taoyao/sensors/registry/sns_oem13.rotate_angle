@@ -1,0 +1,1 @@
+{"sns_oem13.rotate_angle":{"owner":"sns_oem13","OEM13_yawChange_Threshold":{"ver":"0","type":"flt","data":"30"},"OEM13_PitchAngle_Change":{"ver":"0","type":"flt","data":"30"},"OEM13_ScreenAngle_Threshold":{"ver":"0","type":"flt","data":"30"},"OEM13_RollAngle_Threshold":{"ver":"0","type":"flt","data":"30"}}}

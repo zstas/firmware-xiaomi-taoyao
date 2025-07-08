@@ -1,0 +1,1 @@
+{"tmd3719_platform.als":{"owner":"sns_tmd3719","fac_cal":{"type":"grp","ver":"0","data":""},"def_config":{"type":"grp","ver":"0","data":""},"boled_config":{"type":"grp","ver":"0","data":""}}}
